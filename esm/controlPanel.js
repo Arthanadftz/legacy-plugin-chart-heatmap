@@ -17,7 +17,7 @@
  * under the License.
  */
 import { t, validateNonEmpty } from '@superset-ui/core';
-import { formatSelectOptions, columnChoices, formatSelectOptionsForRange } from '@superset-ui/chart-controls';
+import { formatSelectOptions, columnChoices, formatSelectOptionsForRange } from '@arthanasti/chart-controls';
 const sortAxisChoices = [['alpha_asc', t('Axis ascending')], ['alpha_desc', t('Axis descending')], ['value_asc', t('Metric ascending')], ['value_desc', t('Metric descending')]];
 export default {
   controlPanelSections: [{
